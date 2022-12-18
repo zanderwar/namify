@@ -1,0 +1,27 @@
+{
+    "name": "zanderwar/namify",
+    "description": "Generate a random gamified name for use as a username or display name",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Zanderwar\\Namify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zanderwar",
+            "email": "reece.alexander@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "symplify/easy-coding-standard": "^11.1",
+        "adamwojs/php-cs-fixer-phpdoc-force-fqcn": "^2.0"
+    },
+    "scripts": {
+        "ecs-src": "./vendor/bin/ecs check src --config standards/ecs.php",
+        "ecs-tests": "./vendor/bin/ecs check tests --config standards/ecs.php",
+        "standards": ["@ecs-src", "@ecs-tests"],
+        "standards-fix": ["@ecs-src --fix", "@ecs-tests --fix"]
+    }
+}
