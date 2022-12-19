@@ -11,7 +11,7 @@ class TestGenerate extends TestCase
     {
         // over 1000 iterations tests that a generated name never exceeds the max chars
         for ($i = 0; $i < 1000; $i++) {
-            $this->assertLessThanOrEqual(20, strlen(Namify::generate()));
+            $this->assertLessThanOrEqual(20, strlen(Namify::generate(maxLength: 20)));
         }
     }
 
@@ -29,7 +29,6 @@ class TestGenerate extends TestCase
 
     public function testPermutations()
     {
-        die(var_dump(Namify::calculatePermutations()));
-        $this->assertGreaterThanOrEqual(65000, Namify::calculatePermutations());
+        $this->assertGreaterThanOrEqual(725000, Namify::calculatePermutations());
     }
 }
