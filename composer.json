@@ -2,6 +2,7 @@
     "name": "zanderwar/namify",
     "description": "Generate a random gamified name for use as a username or display name",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Zanderwar\\Namify\\": "src/"
