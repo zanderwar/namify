@@ -29,6 +29,7 @@ class TestGenerate extends TestCase
 
     public function testPermutations()
     {
+        die(var_dump(Namify::calculatePermutations()));
         $this->assertGreaterThanOrEqual(65000, Namify::calculatePermutations());
     }
 }

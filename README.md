@@ -38,7 +38,7 @@ $name = Namify::generate(maxLength: 20); // FunnyZebra
 
 # Examples
 
-Over 65,000 unique names can be generated, here is a peak at a few:
+Over 725,000 unique names can be generated, here is a peak at a few:
 
 ```
 HelplessTurtle
