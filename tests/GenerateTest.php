@@ -5,7 +5,7 @@ namespace Tests;
 use PHPUnit\Framework\TestCase;
 use Zanderwar\Namify\Namify;
 
-class TestGenerate extends TestCase
+class GenerateTest extends TestCase
 {
     public function testGenerate()
     {
