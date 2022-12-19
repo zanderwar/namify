@@ -1,3 +1,4 @@
+[![testing](https://github.com/zanderwar/namify/actions/workflows/test.yml/badge.svg)](https://github.com/zanderwar/namify/actions/workflows/test.yml)
 [![Latest Stable Version](http://poser.pugx.org/zanderwar/namify/v)](https://packagist.org/packages/zanderwar/namify) [![Total Downloads](http://poser.pugx.org/zanderwar/namify/downloads)](https://packagist.org/packages/zanderwar/namify) [![Latest Unstable Version](http://poser.pugx.org/zanderwar/namify/v/unstable)](https://packagist.org/packages/zanderwar/namify) [![License](http://poser.pugx.org/zanderwar/namify/license)](https://packagist.org/packages/zanderwar/namify) [![PHP Version Require](http://poser.pugx.org/zanderwar/namify/require/php)](https://packagist.org/packages/zanderwar/namify)
 
 # Namify
